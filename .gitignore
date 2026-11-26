@@ -1,0 +1,38 @@
+# Android / Gradle
+*.iml
+.gradle/
+.idea/
+.kotlin/
+build/
+app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+
+# Firma y credenciales (nunca se suben)
+keystore.properties
+secrets.properties
+.env
+.env.*
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+release.keystore
+
+# Artefactos de compilación
+*.apk
+*.aab
+*.idsig
+app/schemas/
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.log
+*.hprof
+
+# Estado local
+.estado.md

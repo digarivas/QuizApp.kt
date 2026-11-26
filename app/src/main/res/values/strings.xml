@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="app_wordmark">QUIZ.APP</string>
+    <string name="app_tagline">Estudia a tu ritmo</string>
+
+    <!-- Pestañas -->
+    <string name="tab_import">IMPORTAR</string>
+    <string name="tab_exam">EXAMEN</string>
+    <string name="tab_failed">FALLADAS</string>
+    <string name="tab_stats">ESTADÍSTICAS</string>
+    <string name="nav_home">Inicio</string>
+    <string name="nav_exam">Examen</string>
+    <string name="nav_failed">Falladas</string>
+    <string name="nav_stats">Estadísticas</string>
+
+    <!-- Rediseño: métricas y secciones -->
+    <string name="import_metrics_total">Total</string>
+    <string name="import_metrics_total_unit">preg.</string>
+    <string name="import_metrics_sets">Activos</string>
+    <string name="import_metrics_sets_unit">sets</string>
+    <string name="import_metrics_efficacy">Eficacia</string>
+    <string name="import_json_tag">JSON</string>
+    <string name="import_spec_tag">V2.1 SPEC</string>
+    <string name="import_card_tag">Formato JSON · local</string>
+    <string name="import_drop_title">Selecciona o suelta tu JSON</string>
+    <string name="import_drop_body">Estructura estándar compatible\n[{"question": "...", "options": ["..."], "correct_answer": "..."}]\nMáx. 10 MB</string>
+    <string name="import_file_tab">Archivo JSON</string>
+    <string name="import_paste_tab">Pegar JSON / Texto</string>
+    <string name="import_paste_hint">Pega aquí el JSON del examen</string>
+    <string name="import_process">Procesar e Importar</string>
+    <string name="import_help">Ver formato de ejemplo</string>
+    <string name="import_new_folder">Nueva Carpeta</string>
+    <string name="import_sort_label">Ordenar:</string>
+    <string name="import_sort_recent">Más recientes</string>
+    <string name="import_sort_name">Nombre</string>
+    <string name="import_sort_questions">Preguntas</string>
+    <string name="import_reorder">Reorganizar</string>
+    <string name="import_reorder_hint">Mantén pulsada una tarjeta para moverla</string>
+    <string name="import_repo">Repositorio de tests</string>
+    <string name="import_failed_short">%1$d falladas</string>
+    <string name="import_no_attempts">Sin exámenes</string>
+    <plurals name="import_attempts">
+        <item quantity="one">%1$d examen · %2$d%%</item>
+        <item quantity="other">%1$d exámenes · %2$d%%</item>
+    </plurals>
+
+    <!-- Examen en curso -->
+    <string name="draft_in_progress_section">En curso</string>
+    <string name="draft_in_progress">Examen en curso</string>
+    <string name="draft_answered">%1$d de %2$d respondidas</string>
+    <string name="draft_question">Pregunta %1$d de %2$d</string>
+    <string name="draft_continue">Continuar</string>
+    <string name="draft_discard">Descartar</string>
+    <string name="draft_discard_title">Descartar examen</string>
+    <string name="draft_discard_message">Se perderán las respuestas guardadas de «%1$s».</string>
+    <string name="draft_start_new">Empezar de nuevo</string>
+    <string name="draft_start_new_note">Se descarta el progreso guardado de este examen.</string>
+
+    <string name="exam_engine">Motor de simulación</string>
+    <string name="exam_mode_active">Modo prueba activo</string>
+    <string name="exam_set_study">Conjunto de estudio</string>
+    <string name="exam_extraction">Modo de extracción</string>
+    <string name="exam_distribution">Distribución de reactivos</string>
+    <string name="exam_all_short">Todas</string>
+    <string name="exam_failed_short">Solo falladas</string>
+    <string name="exam_total_count">%1$d totales</string>
+    <string name="exam_failed_count">%1$d disponibles</string>
+    <string name="exam_ready">Listo</string>
+    <string name="exam_digest_all">Todas</string>
+    <string name="exam_digest_failed">Solo falladas</string>
+    <string name="exam_digest_random">Aleatorio</string>
+    <string name="exam_digest_seq">Secuencial</string>
+    <string name="exam_session_note">La sesión computa hacia tus métricas de rendimiento global</string>
+    <string name="exam_draft_progress">En curso · %1$d/%2$d</string>
+    <string name="exam_extra">Configuración adicional</string>
+    <string name="exam_time_limit">Límite de Tiempo</string>
+    <string name="exam_time_limit_body">60 segundos por pregunta</string>
+    <string name="exam_practice">Modo Práctica</string>
+    <string name="exam_practice_body">Retroalimentación inmediata tras cada respuesta</string>
+
+    <string name="quiz_question_of">Pregunta %1$d de %2$d</string>
+    <string name="quiz_session_active">Sesión activa</string>
+    <string name="quiz_single_badge">Respuesta única</string>
+    <string name="quiz_multi_badge">Respuesta múltiple</string>
+    <string name="quiz_multi_hint">Selecciona todas las alternativas que cumplan la condición.</string>
+    <string name="quiz_explanation_title">Explicación</string>
+    <string name="quiz_correct_badge">Respuesta correcta</string>
+    <string name="quiz_incorrect_badge">Respuesta incorrecta</string>
+    <string name="quiz_mark">Marcar</string>
+    <string name="quiz_marked">Marcada</string>
+    <string name="quiz_question_label">Pregunta</string>
+    <string name="quiz_module_label">Módulo</string>
+    <string name="quiz_time_label">Tiempo</string>
+    <string name="quiz_map_items">%1$d ítems</string>
+    <string name="quiz_correct_count">%1$d correctas</string>
+    <string name="results_grade">Resultado</string>
+    <string name="results_ok">Aciertos</string>
+
+    <string name="failed_review">Revisión de errores</string>
+    <string name="failed_summary_body">Preguntas únicas agrupadas por grupo y examen. El contador suma todos los fallos.</string>
+    <string name="failed_count_label">preguntas falladas</string>
+    <string name="failed_filter_all">Todas (%1$d)</string>
+    <string name="failed_filter_label">Filtrar por grupo</string>
+    <string name="failed_showing">Mostrando %1$d de %2$d</string>
+    <string name="failed_your_answer">Tu respuesta</string>
+    <string name="failed_correct_label">Respuesta correcta</string>
+    <string name="failed_reason">Motivo del error</string>
+    <string name="failed_retry">Reintentar</string>
+    <string name="failed_discard">Descartar</string>
+    <string name="failed_also_in">También en: %1$s</string>
+
+    <string name="stats_consolidated">Rendimiento consolidado</string>
+    <string name="stats_historic">Histórico</string>
+    <string name="stats_rate">Tasa de acierto global</string>
+    <string name="stats_rate_ok">%1$d / %2$d OK</string>
+    <string name="stats_goal">Precisión vs objetivo (85%)</string>
+    <string name="stats_no_activity">Sin actividad</string>
+    <string name="stats_sets_active">En preparación activa</string>
+    <string name="stats_questions_local">Base local</string>
+    <string name="stats_failed_body">Agrupadas por grupo y examen; el contador suma cada fallo</string>
+    <string name="stats_review">Repasar</string>
+    <string name="stats_group">Grupo</string>
+    <string name="stats_group_evolution">Evolución por grupo</string>
+    <string name="stats_exam_evolution">Evolución por examen</string>
+    <string name="stats_exams_short">Exámenes</string>
+    <string name="stats_best">Mejor</string>
+    <string name="stats_avg_value">Media %1$d%%</string>
+    <string name="stats_no_attempts">Sin exámenes completados</string>
+    <string name="stats_orphan">Sin conjunto</string>
+    <string name="stats_last_attempt">Último: %1$s</string>
+    <string name="stats_chart_group_description">Evolución del grupo %1$s: %2$d exámenes, media %3$d%%.</string>
+    <string name="stats_chart_exam_description">Evolución de %1$s: %2$d exámenes, media %3$d%%.</string>
+    <string name="stats_history_recent">Historial reciente</string>
+    <string name="stats_sessions">%1$d sesiones</string>
+
+    <!-- Comunes -->
+    <string name="cancel">Cancelar</string>
+    <string name="close">Cerrar</string>
+    <string name="delete">Eliminar</string>
+    <string name="start">Iniciar</string>
+    <string name="back">Volver</string>
+    <string name="import_action">Importar</string>
+
+    <!-- Importar -->
+    <string name="sets_title">CONJUNTOS</string>
+    <string name="import_card_title">Carga tus preguntas</string>
+    <string name="import_card_body">Importa un JSON una sola vez. Queda guardado en el dispositivo para practicar todas las veces que quieras.</string>
+    <string name="import_file">Cargar archivos JSON</string>
+    <string name="import_paste">Pegar JSON</string>
+    <string name="import_example">Ver ejemplo</string>
+    <string name="import_progress">Importando %1$d de %2$d</string>
+    <string name="import_batch_none">No se pudo importar ningún archivo</string>
+    <string name="import_batch_group_title">Agrupar los nuevos</string>
+    <string name="import_batch_group_body">Has importado %1$d conjuntos. ¿Los agrupas para tenerlos juntos?</string>
+    <string name="no_sets_title">Sin conjuntos</string>
+    <string name="no_sets_body">Importa un archivo JSON para empezar.</string>
+    <string name="set_questions">%1$d preguntas</string>
+    <string name="delete_set_title">Eliminar conjunto</string>
+    <string name="delete_set_message">¿Eliminar «%1$s»? Las preguntas falladas y el historial se conservan.</string>
+    <string name="import_dialog_title">Importar JSON</string>
+    <string name="import_dialog_name">NOMBRE DEL CONJUNTO</string>
+    <string name="import_dialog_name_hint">Conjunto 1</string>
+    <string name="import_dialog_json">JSON DE PREGUNTAS</string>
+    <string name="import_success">%1$d preguntas importadas en «%2$s»</string>
+    <string name="import_partial">%1$d importadas, %2$d descartadas por formato</string>
+    <string name="import_error">JSON inválido: %1$s</string>
+    <string name="import_empty">El JSON está vacío</string>
+    <string name="file_read_error">No se pudo leer el archivo</string>
+    <string name="example_hint">Ejemplo</string>
+    <string name="set_deleted">Conjunto eliminado</string>
+    <string name="import_file_hint">Formato .json · puedes elegir varios a la vez</string>
+
+    <!-- Grupos y renombrado -->
+    <string name="select_sets">Seleccionar</string>
+    <string name="selection_cancel">Cancelar</string>
+    <string name="more_actions">Más acciones</string>
+    <string name="rename">Renombrar</string>
+    <string name="save">Guardar</string>
+    <string name="name_required">El nombre no puede estar vacío</string>
+    <string name="rename_set_title">Renombrar conjunto</string>
+    <string name="rename_set_label">NOMBRE DEL CONJUNTO</string>
+    <string name="set_renamed">Conjunto renombrado a «%1$s»</string>
+    <string name="move_to_group">Mover a grupo</string>
+    <string name="group_action">Agrupar</string>
+    <string name="group_move_title">Mover a grupo</string>
+    <string name="group_move_title_many">Mover %1$d conjuntos</string>
+    <string name="group_create_title_many">Agrupar %1$d conjuntos</string>
+    <string name="group_name_label">GRUPO</string>
+    <string name="group_name_hint">Nombre del grupo</string>
+    <string name="group_none">Sin grupo</string>
+    <string name="group_removed">Conjuntos sin grupo</string>
+    <string name="group_menu">Opciones del grupo</string>
+    <string name="group_rename_title">Renombrar grupo</string>
+    <string name="group_rename_label">NOMBRE DEL GRUPO</string>
+    <string name="group_renamed">Grupo renombrado a «%1$s»</string>
+    <string name="group_ungroup">Deshacer grupo</string>
+    <string name="group_drop_hint">Mantén pulsado un conjunto y suéltalo sobre otro para agrupar</string>
+    <string name="group_drop_target">SOLTAR AQUÍ</string>
+    <string name="group_same">Ya están en el mismo grupo</string>
+    <string name="group_moved_single">Conjunto movido a «%1$s»</string>
+    <string name="group_default_name">Grupo %1$d</string>
+    <string name="group_merged">Grupos unidos en «%1$s» · %2$d conjuntos</string>
+    <string name="group_merge_rename">Grupo unido a «%1$s»</string>
+    <string name="group_select_hint">Selecciona al menos dos conjuntos</string>
+
+    <!-- Examen -->
+    <string name="exam_title">CONFIGURAR EXAMEN</string>
+    <string name="exam_set">CONJUNTO</string>
+    <string name="exam_mode">MODO</string>
+    <string name="mode_all">Todas las preguntas</string>
+    <string name="mode_failed">Solo falladas</string>
+    <string name="exam_order">ORDEN</string>
+    <string name="order_random">Aleatorio</string>
+    <string name="order_sequential">Secuencial</string>
+    <string name="exam_start">Empezar examen</string>
+    <string name="exam_no_sets">No hay conjuntos todavía</string>
+    <string name="exam_no_sets_body">Importa un JSON en la pestaña Importar.</string>
+    <string name="exam_no_failed">No hay falladas en este conjunto</string>
+    <string name="exam_available">%1$d preguntas disponibles</string>
+
+    <!-- Preguntas -->
+    <string name="quiz_score">Correctas</string>
+    <string name="quiz_checked">Comprobadas %1$d/%2$d</string>
+    <string name="multi_select">Selecciona %1$d respuestas</string>
+    <string name="check">Comprobar</string>
+    <string name="checked">Comprobada</string>
+    <string name="previous">Anterior</string>
+    <string name="next">Siguiente</string>
+    <string name="see_results">Ver resultados</string>
+    <string name="correct">¡Correcto!</string>
+    <string name="incorrect">Incorrecto</string>
+    <string name="correct_answer_is">Respuesta correcta: %1$s</string>
+    <string name="correct_answers_are">Respuestas correctas: %1$s</string>
+    <string name="explanation">EXPLICACIÓN</string>
+    <string name="question_map">MAPA DE PREGUNTAS</string>
+    <string name="map_correct">Correcta</string>
+    <string name="map_wrong">Incorrecta</string>
+    <string name="map_selected">Seleccionada</string>
+    <string name="map_unanswered">Sin contestar</string>
+    <string name="finish_exam">Finalizar examen</string>
+    <string name="finish_title">Finalizar examen</string>
+    <plurals name="finish_message">
+        <item quantity="one">Queda %1$d pregunta sin comprobar. Se contará como fallada.</item>
+        <item quantity="other">Quedan %1$d preguntas sin comprobar. Se contarán como falladas.</item>
+    </plurals>
+    <string name="finish_confirm">Finalizar</string>
+    <string name="exit_title">Salir del examen</string>
+    <string name="exit_message">El progreso se guarda automáticamente. Podrás continuar desde Inicio.</string>
+    <string name="exit_confirm">Salir</string>
+    <string name="question_label">Pregunta %1$d</string>
+    <string name="multi_badge">MULTIRRESPUESTA</string>
+    <string name="quiz_no_failed">No hay preguntas falladas en este conjunto.</string>
+    <string name="quiz_no_questions">Este conjunto no tiene preguntas válidas.</string>
+    <string name="quiz_set_missing">El conjunto ya no existe.</string>
+    <string name="quiz_load_error">No se pudo cargar el examen.</string>
+
+    <!-- Resultados -->
+    <string name="results_title">RESULTADO</string>
+    <string name="grade_excellent">Excelente</string>
+    <string name="grade_good">Bien</string>
+    <string name="grade_study">A estudiar</string>
+    <string name="grade_review">Repasa más</string>
+    <string name="result_summary">%1$d de %2$d correctas</string>
+    <string name="stat_correct">Correctas</string>
+    <string name="stat_wrong">Falladas</string>
+    <string name="stat_unanswered">Sin contestar</string>
+    <string name="stat_total">Total</string>
+    <string name="result_repeat">Repetir</string>
+    <string name="result_failed">Ver falladas</string>
+    <string name="result_home">Volver al inicio</string>
+
+    <!-- Falladas -->
+    <string name="failed_title">PREGUNTAS FALLADAS</string>
+    <string name="failed_empty_title">Sin preguntas falladas</string>
+    <string name="failed_empty_body">Cuando falles una pregunta aparecerá aquí para repasar.</string>
+    <string name="your_answer">Tu respuesta: %1$s</string>
+    <string name="failed_correct">Correcta: %1$s</string>
+    <string name="export_txt">TXT</string>
+    <string name="export_json">JSON</string>
+    <string name="clear_all">Limpiar</string>
+    <string name="clear_all_title">Limpiar falladas</string>
+    <string name="clear_all_message">¿Eliminar todas las preguntas falladas?</string>
+    <string name="clear">Quitar de falladas</string>
+    <string name="export_empty">No hay preguntas falladas</string>
+    <string name="export_success">%1$d preguntas exportadas</string>
+    <string name="export_error">No se pudo exportar</string>
+
+    <!-- Estadísticas -->
+    <string name="stats_sets">CONJUNTOS</string>
+    <string name="stats_questions">PREGUNTAS</string>
+    <string name="stats_failed">FALLADAS</string>
+    <string name="stats_average">MEDIA</string>
+    <string name="stats_history">HISTORIAL</string>
+    <string name="stats_clear_history">Borrar historial</string>
+    <string name="stats_empty_title">Sin historial</string>
+    <string name="stats_empty_body">Haz un examen para ver tus resultados aquí.</string>
+    <string name="history_mode_all">Completo</string>
+    <string name="history_mode_failed">Solo falladas</string>
+    <string name="history_score">%1$d/%2$d</string>
+    <string name="clear_history_title">Borrar historial</string>
+    <string name="clear_history_message">¿Borrar todo el historial de exámenes?</string>
+
+    <!-- Ajustes / ayuda -->
+    <string name="settings_title">AJUSTES</string>
+    <string name="settings_theme">TEMA</string>
+    <string name="theme_system">Sistema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Oscuro</string>
+    <string name="settings_about">ACERCA DE</string>
+    <string name="settings_about_body">QuizApp es una aplicación nativa y offline. Tus conjuntos, preguntas falladas e historial se guardan solo en este dispositivo.</string>
+    <string name="settings_format">FORMATO JSON</string>
+    <string name="settings_format_body">Array de objetos. Campos obligatorios: id, question, options y correct_answer. Campo opcional: explanation.</string>
+    <string name="format_single">Respuesta única: texto exacto o letra (por ejemplo, «A»).</string>
+    <string name="format_multi">Multirrespuesta: «A, C» o «A and C». Hay que marcar todas.</string>
+    <string name="format_tip">La app detecta sola si hay una o varias respuestas correctas.</string>
+    <string name="settings_example">EJEMPLO</string>
+    <string name="settings_version">Versión %1$s</string>
+    <string name="theme_quick_toggle">Cambiar tema</string>
+
+    <plurals name="stats_failed_tile">
+        <item quantity="one">%1$d fallada</item>
+        <item quantity="other">%1$d falladas</item>
+    </plurals>
+
+    <plurals name="failed_times">
+        <item quantity="one">Fallada %1$d vez</item>
+        <item quantity="other">Fallada %1$d veces</item>
+    </plurals>
+    <plurals name="stats_attempts">
+        <item quantity="one">%1$d examen</item>
+        <item quantity="other">%1$d exámenes</item>
+    </plurals>
+    <plurals name="stats_failures">
+        <item quantity="one">%1$d fallo</item>
+        <item quantity="other">%1$d fallos</item>
+    </plurals>
+    <plurals name="question_count">
+        <item quantity="one">%1$d pregunta</item>
+        <item quantity="other">%1$d preguntas</item>
+    </plurals>
+    <plurals name="questions_available">
+        <item quantity="one">%1$d pregunta disponible</item>
+        <item quantity="other">%1$d preguntas disponibles</item>
+    </plurals>
+    <plurals name="batch_sets">
+        <item quantity="one">%1$d conjunto</item>
+        <item quantity="other">%1$d conjuntos</item>
+    </plurals>
+    <plurals name="batch_questions">
+        <item quantity="one">%1$d pregunta</item>
+        <item quantity="other">%1$d preguntas</item>
+    </plurals>
+    <plurals name="batch_failures">
+        <item quantity="one">%1$d archivo con error</item>
+        <item quantity="other">%1$d archivos con error</item>
+    </plurals>
+    <plurals name="selected_sets">
+        <item quantity="one">%1$d seleccionado</item>
+        <item quantity="other">%1$d seleccionados</item>
+    </plurals>
+    <plurals name="set_count">
+        <item quantity="one">%1$d conjunto</item>
+        <item quantity="other">%1$d conjuntos</item>
+    </plurals>
+    <plurals name="group_moved">
+        <item quantity="one">%1$d conjunto movido a «%2$s»</item>
+        <item quantity="other">%1$d conjuntos movidos a «%2$s»</item>
+    </plurals>
+</resources>

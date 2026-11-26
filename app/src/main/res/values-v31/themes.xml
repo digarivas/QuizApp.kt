@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Splash coherente con el tema oscuro por defecto: sin destello blanco. -->
+    <style name="Theme.QuizApp.Starting" parent="Theme.QuizApp">
+        <item name="android:windowSplashScreenBackground">#000000</item>
+    </style>
+</resources>
